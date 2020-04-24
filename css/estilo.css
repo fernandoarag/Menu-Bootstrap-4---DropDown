@@ -1,0 +1,15 @@
+#executarMenu {
+    text-align: center;
+}
+
+.dropdown-menu {
+    background-color: darkblue;
+    text-align: center;
+    justify-content: center;
+    width: 150px;
+
+}
+
+.dropdown-item {
+    color: white;
+}    
