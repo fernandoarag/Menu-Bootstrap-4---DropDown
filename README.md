@@ -7,7 +7,7 @@ Português:<br>
 3º Passo: Corrigir o "src==" na linha 56, informando o caminho do popper.min.js;<br>
 4º Passo: Corrigir o "src==" na linha 57, informando o caminho do bootstrap.min.js;<br>
 Obs: O menu somente funciona com os arquivos (Bootstrap.min.css, jquery.min.js, popper.min.js, bootstrap.min.js) nas versões contidas no repositório.<br>
-Obs 02: Caso queria estilizar cores diferentes, só alterar na pagina "index.html" os campos na parte de <style>;<br><br><br>
+Obs 02: Caso deseje alterar, os estilos estão no arquivo "css/estilos.css";<br><br><br>
   
 
 English:<br>
@@ -16,4 +16,4 @@ English:<br>
 3rd Step: Correct the "src ==" on line 56, informing the path of popper.min.js;<br>
 4th Step: Correct the "src ==" on line 57, informing the bootstrap.min.js path;<br>
 Note: The menu only works with files (Bootstrap.min.css, jquery.min.js, popper.min.js, bootstrap.min.js) in the versions contained in the repository.<br>
-Obs 02: If you wanted to style different colors, just change the fields in the <style> section on the "index.html" page;
+Obs 02: If you want to change, the styles are in the file "css/estilos.css"; <br> <br> <br>
