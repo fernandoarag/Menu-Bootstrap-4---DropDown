@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Curso de Bootstrap</title>
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        #executarMenu {
+            text-align: center;
+        }
+        
+        .dropdown-menu {
+            background-color: darkblue;
+            text-align: center;
+            justify-content: center;
+            width: 150px;
+            
+        }
+        
+        .dropdown-item {
+            color: white;
+            
+        }    
+        </style>
+
+    </head>
+    
+    
+    <body>
+        <!-- Digite abaixo seu codigo -->
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle"
+                        type="image"
+                        data-toggle="dropdown"
+                        aria-haspopup="true" 
+                        aria-expanded="false"
+                        id="executarMenu"
+                        src="img/casa.png">Menu</button>
+                
+                
+                <div class="dropdown-menu" 
+                     aria-labelledby="executarMenu">
+                    <a class="dropdown-item" href="home.html">Home</a>
+                    <a class="dropdown-item" href="info.html">Info</a>
+                    <a class="dropdown-item" href="special-events.html">Special Events</a>
+                    <a class="dropdown-item" href="dvd.html">DVD</a>
+                    <a class="dropdown-item" href="location.htm">Location</a>
+                    <hr>
+                    <a class="dropdown-item" href="menu.html">Menu</a>
+                    <a class="dropdown-item" href="review.html">Review</a>
+                </div>    
+            </div>      
+            <!-- Fim do Documento -->
+            <script src="_js/jquery.min.js"></script>
+            <script src="_js/popper.min.js"></script>
+            <script src="../js/bootstrap.min.js"></script>
+    </body>
+</html>
